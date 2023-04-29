@@ -1,0 +1,22 @@
+
+<h2>لیست کارهای در دست انجام براساس کاربران</h2>
+<table>
+
+  <tr>
+    <th> userId</th>
+    <th> id</th>
+    <th> title</th>
+    <th> completed</th>
+  </tr>
+
+  <tr *ngFor="let com of todo"  >
+    <td> {{com.userId}}</td>
+    <td> {{com.id}}</td>
+    <td> {{com.title}}</td>
+    <td> {{com.completed}}</td>
+  </tr>
+
+</table>
+
+
+
